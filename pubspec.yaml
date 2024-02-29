@@ -36,7 +36,12 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   http: ^1.2.1                #To communicate with API
-  chat_bubbles: ^1.6.0        #For displaying beautiful UI for individual messages
+  chat_bubbles: ^1.5.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  # Add the intl package
+       #For displaying beautiful UI for individual messages
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +59,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  generate: true
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
